@@ -16,8 +16,10 @@
     </div>
   </header>
   <main>
-    <?php include 'data/data.php';
-          include 'parts/discs.php'; ?>
+    <div class="disks">
+      <?php include 'data/data.php';
+            include 'parts/disks.php'; ?>
+    </div>
   </main>
 </body>
 </html>
