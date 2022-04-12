@@ -10,6 +10,14 @@
   <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-  
+  <header>
+    <div class="logo">
+      <img src="img/logo.png" alt="logo" width="45">
+    </div>
+  </header>
+  <main>
+    <?php include 'data/data.php';
+          include 'parts/discs.php'; ?>
+  </main>
 </body>
 </html>
