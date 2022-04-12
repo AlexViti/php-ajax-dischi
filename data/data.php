@@ -2,11 +2,11 @@
 // Array of disks with: title, author, year, poster, genre
 $disks = [
   [
-    'title'  => 'The Dark Side of the Moon',
-    'author' => 'Pink Floyd',
-    'year'   => 1973,
-    'poster' => 'https://m.media-amazon.com/images/I/81aTawcGdmL._AC_SL1500_.jpg',
-    'genre'  => 'Rock'
+    'title' => 'Another One Bites The Dust',
+    'author' => 'Queen',
+    'year' => '1977',
+    'poster' => 'https://m.media-amazon.com/images/I/71AB0rPmy+L._AC_SX450_.jpg',
+    'genre' => 'Rock'
   ],
   [
     'title'  => 'The Wall',

@@ -3,6 +3,7 @@
   --header-height: 70px;
   --header-background: #2e3a46;
   --main-background: #1e2d3b;
+  --disk-background: #2e3a46;
 }
 
 * {
@@ -32,12 +33,25 @@ header {
 main {
   background: var(--main-background);
   min-height: calc(100vh - var(--header-height));
+  padding: 2rem;
 }
 
 main .disks {
+  width: clamp(600px, 80%, 1100px);
+  margin: 0 auto;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[5];
-      grid-template-columns: repeat(5, 1fr);
+  -ms-grid-columns: (200px)[auto-fill];
+      grid-template-columns: repeat(auto-fill, 200px);
+  gap: 1rem;
+}
+
+main .disks .disk {
+  background-color: var(--disk-background);
+  padding: 1rem;
+}
+
+main .disks .disk img {
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */

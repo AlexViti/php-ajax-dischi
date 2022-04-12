@@ -1,8 +1,8 @@
 <?php
 
 foreach ($disks as $disk) {
-  echo "<div class=\"disc\">
-    <img src=\"$disk[poster]\" alt=\"$disk[title]\" width=\"300\">
+  echo "<div class=\"disk\">
+    <img src=\"$disk[poster]\" alt=\"$disk[title]\">
     <div class=\"disc-info\">
       <h3>$disk[title]</h3>
       <h4>$disk[author]</h4>

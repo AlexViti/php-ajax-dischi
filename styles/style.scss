@@ -5,6 +5,7 @@
   --header-background: #2e3a46;
 
   --main-background: #1e2d3b;
+  --disk-background: #2e3a46;
 }
 
 * {
@@ -31,9 +32,22 @@ header {
 main {
   background: var(--main-background);
   min-height: calc(100vh - var(--header-height));
+  padding: 2rem;
 
   .disks {
+    width: clamp(600px, 80%, 1100px);
+    margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(auto-fill, 200px);
+    gap: 1rem;
+
+    .disk {
+      background-color: var(--disk-background);
+      padding: 1rem;
+
+      img {
+        width: 100%;
+      }
+    }
   }
 }
