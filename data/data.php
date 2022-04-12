@@ -1,5 +1,4 @@
 <?php
-// Array of disks with: title, author, year, poster, genre
 $disks = [
   [
     'title' => 'Another One Bites The Dust',
